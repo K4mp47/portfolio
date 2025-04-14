@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex flex-col">
               <p className="text-slate-50 font-bold">Me</p>
               <a 
-                href="#knwoledge" 
+                href="#knowledge" 
                 className="leading-7"
               >
                 knowledge

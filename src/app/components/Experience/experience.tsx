@@ -22,7 +22,7 @@ const techStack: ExpItem[] = [
     children: [
       { name: "• High school degree: ICT and Telecomunication (2017-2022)" },
       { name: "• Degree in data science from the Ca' Foscari University of Venice (in progress)" },
-      { name: "• Web Design Degree from FreeCodeCamp Course"}
+      { name: "• Web Design Degree from FreeCodeCamp Course" }
     ],
   },
   {
@@ -35,7 +35,7 @@ const techStack: ExpItem[] = [
 ]
 
 const ExpItem: React.FC<{ item: ExpItem; level: number }> = ({ item, level }) => {
-  const [isOpen, setIsOpen] = React.useState(false)
+  const [isOpen, setIsOpen] = React.useState(true)
 
   return (
     <div className="ml-4 text-xl">
@@ -70,7 +70,7 @@ export default function Experience() {
       </div>
       <div className="bg-slate-950 rounded-lg shadow-lg border border-solid border-slate-700 p-4">
         <div className="flex justify-start relative items-center m-2">
-          <p className="text-sm font-bold flex">Press &nbsp;<FolderOpen className="w-5 h-5 text-gray-400" />&nbsp; to Open</p>
+          <p className="text-sm font-bold flex">Press &nbsp;<FolderOpen className="w-5 h-5 text-gray-400" />&nbsp; to Open/Close</p>
         </div>
         {techStack.map((item, index) => (
           <ExpItem key={index} item={item} level={0} />
