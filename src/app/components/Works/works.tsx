@@ -9,10 +9,10 @@ const Works = () => {
       <div className="flex flex-row justify-between">
         <h1 id="project" className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-8">Projects</h1>
         <div className="lg:hidden">
-          <Button text="View all projects" icon={<FolderGit2Icon />} link="#blank" />
+          <Button text="Go to Github Profile" icon={<FolderGit2Icon />} link="https://github.com/K4mp47" />
         </div>
         <div className="hidden lg:block">
-          <ButtonAnimated text="View all projects" icon={<FolderGit2Icon />} link="#blank" />
+          <ButtonAnimated text="Go to Github Profile" icon={<FolderGit2Icon />} link="https://github.com/K4mp47" />
         </div>
       </div>
       <div className="flex gap-2 justify-start items-center text-slate-400 mb-12">
