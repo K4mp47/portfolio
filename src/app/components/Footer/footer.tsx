@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex flex-col">
               <p className="text-slate-50 font-bold">This site</p>
               <a 
-                href="#blank" 
+                href="https://github.com/K4mp47/portfolio" 
                 className="leading-7"
               >
                 Source code
