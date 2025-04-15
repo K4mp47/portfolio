@@ -11,6 +11,7 @@ const TechStack = () => {
   const packages = useMemo(() => [
     'react',
     'next',
+    'vue',
     'tailwindcss',
     'typescript',
     'c++',
@@ -18,6 +19,9 @@ const TechStack = () => {
     'css',
     'html',
     'java',
+    'framer-motion',
+    'python',
+    'git',
   ], []);
 
   useEffect(() => {
@@ -79,8 +83,8 @@ const TechStack = () => {
           <p className="text-sm font-bold">bash</p>
         </div>
         <div className="mt-4">
-          <p className="text-green-400">$ npm install TechStack knowledge</p>
-
+          <p className="text-green-400">$ <span className="text-white">npm install TechStack knowledge</span></p>
+          <p>------------------------------</p>
           {isLoading ? (
             <p className="text-yellow-400">Loading package data...</p>
           ) : error ? (
@@ -92,9 +96,12 @@ const TechStack = () => {
               </p>
             ))
           )}
-
+          <p>------------------------------</p>
+          <p className="text-white flex">
+            [<span className="text-yellow-400">!</span>] Always open to learning new technologies.
+          </p>
           <br />
-          <p className="text-green-400">$</p>
+          <p className="text-green-400">$ </p>
         </div>
       </aside>
     </div>

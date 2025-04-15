@@ -13,9 +13,9 @@ const Hero = () => {
         </p>
       </Badge>
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-2">
-        Hi, I&apos;m Alberto, 
+        Hi, I&apos;m <span className="text-green-400">Alberto</span>, 
         <br/>
-        a web and software developer.
+        a <span className="text-green-400">web</span> and <span className="text-green-400">sofware developer</span>.
       </h1>
       <div className="flex gap-2 justify-start items-center text-slate-400">
         <MapPin color="#4ade80" /> 

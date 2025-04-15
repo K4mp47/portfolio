@@ -41,6 +41,12 @@ const Works = () => {
           link="https://github.com/K4mp47/PEL/blob/main/src/897569/json.cpp"
           image="/image.png"
         />
+        <CardWithForm
+          title="Ukibi Gin Website"
+          description="Website created using Vue React and Tailwindcss. It&apos;s a project commissioned by a Venice's Bar."
+          link=""
+          image="/image3.png"
+        />
       </div>
     </div>
   );
