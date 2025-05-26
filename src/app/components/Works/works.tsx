@@ -38,14 +38,20 @@ const Works = () => {
         <CardWithForm
           title="Custom JSON Format Parser"
           description="A custom JSON format parser created using just C++. It&apos;s an university's project."
-          link="https://github.com/K4mp47/PEL/blob/main/src/897569/json.cpp"
+          link="https://github.com/K4mp47/PEL/blob/main/src/json.cpp"
           image="/image.png"
         />
         <CardWithForm
           title="Ukibi Gin Website"
-          description="Website created using Vue React and Tailwindcss. It&apos;s a project commissioned by a Venice's Bar."
-          link=""
+          description="Website created using Vue React and Tailwindcss. It&apos;s a project commissioned by the Bussola Venice's Bar."
+          link="https://www.ukibigin.com"
           image="/image3.png"
+        />
+        <CardWithForm
+          title="Rune Website"
+          description="A webpage for a possible future client with the idea of selling software. It&apos;s a personal project."
+          link="https://rune-agency.netlify.app"
+          image="/image4.png"
         />
       </div>
     </div>
