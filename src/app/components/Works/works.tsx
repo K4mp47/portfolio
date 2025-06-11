@@ -53,6 +53,12 @@ const Works = () => {
           link="https://rune-agency.netlify.app"
           image="/image4.png"
         />
+        <CardWithForm
+          title="ScrollerWeb"
+          description="A webpage for a possible future client artistic portfolio. It&apos;s a personal project. Made with React and Tailwindcss, Motion Animation and Lenis."
+          link="https://scrollerweb.netlify.app"
+          image="/image5.png"
+        />
       </div>
     </div>
   );
