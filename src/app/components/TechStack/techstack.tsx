@@ -22,6 +22,7 @@ const TechStack = () => {
     'framer-motion',
     'python',
     'git',
+    'gsap',
   ], []);
 
   useEffect(() => {

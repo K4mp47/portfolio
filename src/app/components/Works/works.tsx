@@ -3,7 +3,7 @@ import { Button, ButtonAnimated } from "../Button/button";
 import { CardWithForm } from "./card";
 
 const Works = () => {
-  
+
   return (
     <div className="px-4">
       <div className="flex flex-row justify-between">
@@ -16,7 +16,7 @@ const Works = () => {
         </div>
       </div>
       <div className="flex gap-2 justify-start items-center text-slate-400 mb-12">
-        <p className="leading-7"> 
+        <p className="leading-7">
           That&apos;s a list of my favourite projects. Some are personal, some are school projects.
           <br />
           I hope you like them.
@@ -54,9 +54,9 @@ const Works = () => {
           image="/image4.png"
         />
         <CardWithForm
-          title="ScrollerWeb"
-          description="A webpage for a possible future client artistic portfolio. It&apos;s a personal project. Made with React and Tailwindcss, Motion Animation and Lenis."
-          link="https://scrollerweb.netlify.app"
+          title="GSAP-Copy Website"
+          description="A winning awards webpage recreated to learn how to use basic GSAP animation. It&apos;s a personal project. Made with React and Tailwindcss, GSAP for animations."
+          link="https://gsap-copy.netlify.app/"
           image="/image5.png"
         />
       </div>
