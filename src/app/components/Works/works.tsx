@@ -59,6 +59,12 @@ const Works = () => {
           link="https://gsap-copy.netlify.app/"
           image="/image5.png"
         />
+        <CardWithForm
+          title="Microblog Flask Project"
+          description="Recreated microblog Flask full-based by Miguel Grinberg"
+          link="https://github.com/K4mp47/Flask-by-Miguel-Grinberg.git"
+          image="/image6.jpg"
+        />
       </div>
     </div>
   );
