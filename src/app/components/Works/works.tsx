@@ -65,6 +65,12 @@ const Works = () => {
           link="https://github.com/K4mp47/Flask-by-Miguel-Grinberg.git"
           image="/image6.jpg"
         />
+        <CardWithForm
+          title="Hirelens Project"
+          description="A Web application for CV reviews. It&apos;s a personal project. Based on Nextjs, use Puter.js for AI functionalities."
+          link="https://hire-lens.netlify.app/"
+          image="/image6.png"
+        />
       </div>
     </div>
   );
