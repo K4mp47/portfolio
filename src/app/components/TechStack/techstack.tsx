@@ -19,7 +19,7 @@ const TechStack = () => {
       alt="TryHackMe Logo"
       src="/tryhackme.webp"
       key="hackthebox"
-      className="w-25 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,,
+      className="w-25 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,
     <Image
       alt="Hack The Box Logo"
       src="/hackthebox.png"
