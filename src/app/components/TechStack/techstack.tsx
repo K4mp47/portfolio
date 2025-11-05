@@ -14,17 +14,26 @@ const TechStack = () => {
       alt="OlyCyber Logo"
       src="/olybg.png"
       key="olicyber"
-      className="w-20 h-6 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,
+      width={10}
+      height={10}
+      layout="responsive"
+      className="w-20 h-6 rounded-xl transition-all duration-300 transform rotate-3"/>,
     <Image
       alt="TryHackMe Logo"
       src="/tryhackme.webp"
       key="hackthebox"
-      className="w-25 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,
+      width={10}
+      height={5}
+      layout="responsive"
+      className="w-25 h-8 rounded-xl transition-all duration-300 scale-90  transform rotate-3"/>,
     <Image
       alt="Hack The Box Logo"
       src="/hackthebox.png"
       key="tryhackme"
-      className="w-20 h-25 rounded-xl transition-all duration-300 hover:scale-105"/>,
+      width={10}
+      height={5}
+      layout="responsive"
+      className="w-20 h-25 rounded-xl transition-all duration-300"/>,
   ], []);
 
 
