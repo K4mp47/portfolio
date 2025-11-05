@@ -1,11 +1,32 @@
 "use client"
 import axios from "axios";
 import { useEffect, useMemo, useState } from "react";
+import Folder from "../Folder/folder";
+import Image from "next/image";
 
 const TechStack = () => {
   const [packageData, setPackageData] = useState<Record<string, string>>({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+
+  const coloredSquares = useMemo(() => [
+    <Image
+      alt="OlyCyber Logo"
+      src="/olybg.png"
+      key="olicyber"
+      className="w-25 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,
+    <Image
+      alt="TryHackMe Logo"
+      src="/tryhackme.webp"
+      key="hackthebox"
+      className="w-25 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,,
+    <Image
+      alt="Hack The Box Logo"
+      src="/hackthebox.png"
+      key="tryhackme"
+      className="w-20 h-25 rounded-xl transition-all duration-300 hover:scale-105"/>,
+  ], []);
+
 
   // List of packages we want to display in our tech stack
   const packages = useMemo(() => [
@@ -23,6 +44,7 @@ const TechStack = () => {
     'python',
     'git',
     'gsap',
+    'nextjs',
   ], []);
 
   useEffect(() => {
@@ -105,6 +127,16 @@ const TechStack = () => {
           <p className="text-green-400">$ </p>
         </div>
       </aside>
+      <h1 id="knowledge" className="scroll-m-20 mt-8 text-4xl font-extrabold tracking-tight lg:text-5xl mb-8">
+        Passion for Cybersecurity.
+      </h1>
+      <p className="leading-7 text-slate-400 mb-8">
+        Exploring the world of ethical hacking, network defense, and digital forensics.  
+        Constantly learning new techniques, tackling real-world challenges, and improving my skills through hands-on cybersecurity labs and courses on platforms like TryHackMe and Hack The Box.
+      </p>
+      <div style={{ width: "100%", height: '320px', display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '8rem' }}>
+        <Folder size={2} color="#4ade80" className="" items={coloredSquares} />
+      </div>
     </div>
   );
 };
