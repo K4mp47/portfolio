@@ -14,7 +14,7 @@ const TechStack = () => {
       alt="OlyCyber Logo"
       src="/olybg.png"
       key="olicyber"
-      className="w-25 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,
+      className="w-20 h-8 rounded-xl transition-all duration-300 hover:scale-105 transform rotate-3"/>,
     <Image
       alt="TryHackMe Logo"
       src="/tryhackme.webp"
