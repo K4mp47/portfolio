@@ -130,7 +130,7 @@ const TechStack = () => {
           )}
           <p>------------------------------</p>
           <p className="text-white flex">
-            [<span className="text-yellow-400">!</span>] Always open to learning new technologies.
+            [<span className="text-yellow-400">!</span>] Always open to learn new technologies.
           </p>
           <br />
           <p className="text-green-400">$ </p>
